@@ -52,7 +52,7 @@
     
 }
 
-.main-Inicio{
+.main{
     grid-area: main;
     width: 100%;
 }
@@ -114,6 +114,186 @@
     text-align: justify;
     padding: 1em 3em;
 }
+
+.contenedor-Central-Main{
+    width: 100%;
+}
+
+.contenedor-Img-Portada-Nosotros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor-Img-Portada-Nosotros img{
+    width: 100%;
+}
+
+.contenedor-Texto-Portada-Nosotros{
+    position: absolute;
+    z-index: 1;
+    text-shadow: 2px 2px 2px black;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    padding: 1em;
+    background-image: linear-gradient(to left, #f3f3f3 , #02998760 );
+    border-radius: .5em;
+}
+
+.contenedor-Descripcion-Nosotros{
+    text-align: center;
+    padding-top:1em ;
+    background-color: #029987;
+    color: #fff;
+    padding: 1em 5em;
+}
+
+.contenedor-Descripcion-Nosotros p{
+    text-align: justify;
+    padding: 1em;
+}
+
+.contenedor-Img-nosotros{
+    width: 100%;
+}
+
+.img-Sobre-Nosotros{
+    width: 100%;
+}
+
+
+
+
+
+.seccion-Noticias{
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.contenedor-Tarjetas{
+    display: flex;
+    flex-direction: column;
+    margin: .5em;
+    background-color: #029987;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color:#029987 ; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fff; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: black; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #0e0e0e; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #029987; 
+    border-color: #fff; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #0e0e0e; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+.titulo-Formulario{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #fff;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+.p-Formulario{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+
+
+
 
 .footer{
     display: flex;
